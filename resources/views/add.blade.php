@@ -7,8 +7,8 @@
             <div class="col-8 mx-auto">
               <div class="card">
                 <div class="card-body">
-                  <h1 class="card-title">Edit Note</h1>
-                  @include('inc.note-form', ['subject' => 'test', 'description' => 'this is a test'])
+                  <h1 class="card-title">Create Note</h1>
+                  @include('inc.note-form')
                 </div>
               </div>
             </div>

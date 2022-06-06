@@ -21,6 +21,8 @@ Route::get('/edit', function () {
     return view('edit');
 });
 
-Route::get('/create', function () {
-    return view('create');
+Route::get('/add', function () {
+    return view('add');
 });
+
+Route::post('create-note', [NoteController::class, 'create']);
