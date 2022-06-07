@@ -8,7 +8,7 @@
               <div class="card">
                 <div class="card-body">
                   <h1 class="card-title">Edit Note</h1>
-                  @include('inc.note-form', ['subject' => 'test', 'description' => 'this is a test'])
+                  @include('inc.note-form', ['title' => $note->title, 'description' => $note->description, 'button'=>'Update Note'])
                 </div>
               </div>
             </div>
